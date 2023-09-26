@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-image: url("https://media2.giphy.com/media/WmXC8iUBCyk3pYSIjK/giphy.gif");
+    background-image: url("https://i.pinimg.com/originals/c9/38/eb/c938ebe7613bd283b2d212d12a8ae135.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,7 +22,8 @@ body {
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
     background-repeat: no-repeat;
-    background: url("https://64.media.tumblr.com/243c2e67b39dd9f57489d335a57ffdf9/3c12b81a01a0c16b-dd/s400x600/3573a5edd757422ce5e2894654fef1142005c77a.gif") center; /* Centra la imagen horizontalmente y verticalmente */
+    background: url("https://64.media.tumblr.com/243c2e67b39dd9f57489d335a57ffdf9/3c12b81a01a0c16b-dd/s400x600/3573a5edd757422ce5e2894654fef1142005c77a.gif") center; 
+    /* Centra la imagen horizontalmente y verticalmente */
     padding: 15px;
     border-radius: 32px;
     box-shadow: 15px 10px 0px 5px #00000033;
