@@ -1,0 +1,77 @@
+* {
+    font-family: 'Fraunces', serif;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://usagif.com/wp-content/uploads/gify/funny-fight-55-fighting-drunk-man-usagif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-repeat: no-repeat;
+    background: url("https://64.media.tumblr.com/243c2e67b39dd9f57489d335a57ffdf9/3c12b81a01a0c16b-dd/s400x600/3573a5edd757422ce5e2894654fef1142005c77a.gif") center; /* Centra la imagen horizontalmente y verticalmente */
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: rgba(255, 156, 247, 0.5); /* Cambia el último valor para ajustar la opacidad */
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+
+
+button:active {
+    background-color: #006f54;
+}
+
+button:focus {
+    outline: none;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.display {
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgba(255, 156, 247, 0.5);
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+}
+
+#valor-actual {
+    font-size: 1.5em;
+}
+
+#valor-anterior {
+    font-size: 2em;
+}
