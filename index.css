@@ -26,7 +26,7 @@ body {
     /* Centra la imagen horizontalmente y verticalmente */
     padding: 15px;
     border-radius: 32px;
-    box-shadow: 15px 10px 0px 5px #00000033;
+    box-shadow: 15px 10px 0px 5px #000033;
 }
 
 button {
